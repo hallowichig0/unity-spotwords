@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C685671D-11B9-CDC4-F932-F3D85048A63A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AnimalLvl1Script\GravityFall.cs" />
+     <Compile Include="Assets\AnimalLvl1Script\IgnoreGravityFall.cs" />
+     <Compile Include="Assets\AnimalLvl1Script\deductionscore.cs" />
+     <Compile Include="Assets\AnimalLvl1Script\destroyObj.cs" />
+     <Compile Include="Assets\AnimalLvl1bScript\destroyObj1b.cs" />
+     <Compile Include="Assets\AnimalLvl1cScript\destroyObj1c.cs" />
+     <Compile Include="Assets\AnimalLvl1dScript\destroyObj1d.cs" />
+     <Compile Include="Assets\AnimalLvl1eScript\destroyObj1e.cs" />
+     <Compile Include="Assets\AnimalLvl2Script\GravityFall2.cs" />
+     <Compile Include="Assets\AnimalLvl2Script\IgnoreGravityFall2.cs" />
+     <Compile Include="Assets\AnimalLvl2Script\deductionscore2.cs" />
+     <Compile Include="Assets\AnimalLvl2Script\destroyObj2.cs" />
+     <Compile Include="Assets\AnimalLvl2bScript\destroyObj2b.cs" />
+     <Compile Include="Assets\AnimalLvl2cScript\destroyObj2c.cs" />
+     <Compile Include="Assets\AnimalLvl2dScript\destroyObj2d.cs" />
+     <Compile Include="Assets\AnimalLvl2eScript\destroyObj2e.cs" />
+     <Compile Include="Assets\AnimalLvl3Script\GravityFall3.cs" />
+     <Compile Include="Assets\AnimalLvl3Script\IgnoreGravityFall3.cs" />
+     <Compile Include="Assets\AnimalLvl3Script\deductionscore3.cs" />
+     <Compile Include="Assets\AnimalLvl3Script\destroyObj3.cs" />
+     <Compile Include="Assets\AnimalLvl3bScript\destroyObj3b.cs" />
+     <Compile Include="Assets\AnimalLvl3cScript\destroyObj3c.cs" />
+     <Compile Include="Assets\AnimalLvl3dScript\destroyObj3d.cs" />
+     <Compile Include="Assets\AnimalLvl3eScript\destroyObj3e.cs" />
+     <Compile Include="Assets\AnimalLvl4Script\GravityFall4.cs" />
+     <Compile Include="Assets\AnimalLvl4Script\IgnoreGravityFall4.cs" />
+     <Compile Include="Assets\AnimalLvl4Script\deductionscore4.cs" />
+     <Compile Include="Assets\AnimalLvl4Script\destroyObj4.cs" />
+     <Compile Include="Assets\AnimalLvl4aScript\destroyObj4a.cs" />
+     <Compile Include="Assets\AnimalLvl4bScript\destroyObj4b.cs" />
+     <Compile Include="Assets\AnimalLvl4cScript\destroyObj4c.cs" />
+     <Compile Include="Assets\AnimalLvl4dScript\destroyObj4d.cs" />
+     <Compile Include="Assets\AnimalLvl5Script\GravityFall5.cs" />
+     <Compile Include="Assets\AnimalLvl5Script\IgnoreGravityFall5.cs" />
+     <Compile Include="Assets\AnimalLvl5Script\deductionscore5.cs" />
+     <Compile Include="Assets\AnimalLvl5Script\destroyObj5.cs" />
+     <Compile Include="Assets\AnimalLvl5bScript\destroyObj5b.cs" />
+     <Compile Include="Assets\AnimalLvl5cScript\destroyObj5c.cs" />
+     <Compile Include="Assets\AnimalLvl5dScript\destroyObj5d.cs" />
+     <Compile Include="Assets\DeveloperScript\developerscript.cs" />
+     <Compile Include="Assets\FruitLvl1Script\GravityFall11.cs" />
+     <Compile Include="Assets\FruitLvl1Script\IgnoreGravityFall11.cs" />
+     <Compile Include="Assets\FruitLvl1Script\deductionscore11.cs" />
+     <Compile Include="Assets\FruitLvl1Script\destroyObj11.cs" />
+     <Compile Include="Assets\FruitLvl1bScript\destroyObj11b.cs" />
+     <Compile Include="Assets\FruitLvl1cScript\destroyObj11d.cs" />
+     <Compile Include="Assets\FruitLvl1dScript\destroyObj11g.cs" />
+     <Compile Include="Assets\FruitLvl1eScript\destroyObj11e.cs" />
+     <Compile Include="Assets\FruitLvl2Script\GravityFall12.cs" />
+     <Compile Include="Assets\FruitLvl2Script\IgnoreGravityFall12.cs" />
+     <Compile Include="Assets\FruitLvl2Script\deductionscore12.cs" />
+     <Compile Include="Assets\FruitLvl2Script\destroyObj12.cs" />
+     <Compile Include="Assets\FruitLvl2bScript\destroyObj12b.cs" />
+     <Compile Include="Assets\FruitLvl2cScript - Copy (2)\destroyObj12e.cs" />
+     <Compile Include="Assets\FruitLvl2cScript - Copy\destroyObj12d.cs" />
+     <Compile Include="Assets\FruitLvl2cScript\destroyObj12c.cs" />
+     <Compile Include="Assets\FruitLvl2cScript\destroyObj12f.cs" />
+     <Compile Include="Assets\FruitLvl3Script - Copy - Copy (2)\destroyObj13d.cs" />
+     <Compile Include="Assets\FruitLvl3Script - Copy - Copy (3)\destroyObj13e.cs" />
+     <Compile Include="Assets\FruitLvl3Script - Copy - Copy\destroyObj13c.cs" />
+     <Compile Include="Assets\FruitLvl3Script - Copy\destroyObj13b.cs" />
+     <Compile Include="Assets\FruitLvl3Script\GravityFall13.cs" />
+     <Compile Include="Assets\FruitLvl3Script\IgnoreGravityFall13.cs" />
+     <Compile Include="Assets\FruitLvl3Script\deductionscore13.cs" />
+     <Compile Include="Assets\FruitLvl3Script\destroyObj13.cs" />
+     <Compile Include="Assets\FruitLvl3Script\destroyObj13z.cs" />
+     <Compile Include="Assets\FruitLvl4Script\GravityFall14.cs" />
+     <Compile Include="Assets\FruitLvl4Script\IgnoreGravityFall14.cs" />
+     <Compile Include="Assets\FruitLvl4Script\deductionscore14.cs" />
+     <Compile Include="Assets\FruitLvl4Script\destroyObj14.cs" />
+     <Compile Include="Assets\FruitLvl4bScript\destroyObj14b.cs" />
+     <Compile Include="Assets\FruitLvl4cScript - Copy (2)\destroyObj14e.cs" />
+     <Compile Include="Assets\FruitLvl4cScript - Copy\destroyObj14d.cs" />
+     <Compile Include="Assets\FruitLvl4cScript\destroyObj14c.cs" />
+     <Compile Include="Assets\FruitLvl5Script - Copy (2)\destroyObj15c.cs" />
+     <Compile Include="Assets\FruitLvl5Script - Copy (3)\destroyObj15d.cs" />
+     <Compile Include="Assets\FruitLvl5Script - Copy\destroyObj15b.cs" />
+     <Compile Include="Assets\FruitLvl5Script\GravityFall15.cs" />
+     <Compile Include="Assets\FruitLvl5Script\IgnoreGravityFall15.cs" />
+     <Compile Include="Assets\FruitLvl5Script\deductionscore15.cs" />
+     <Compile Include="Assets\FruitLvl5Script\destroyObj15.cs" />
+     <Compile Include="Assets\GameOverScript\gameoverscript.cs" />
+     <Compile Include="Assets\GameOverScript2\gameoverscript2.cs" />
+     <Compile Include="Assets\GameOverScript3\gameoverscript3.cs" />
+     <Compile Include="Assets\LastSceneScript\animallastscene.cs" />
+     <Compile Include="Assets\LastSceneScript\beforelast.cs" />
+     <Compile Include="Assets\ObjectLvl1Script\GravityFall6.cs" />
+     <Compile Include="Assets\ObjectLvl1Script\IgnoreGravityFall6.cs" />
+     <Compile Include="Assets\ObjectLvl1Script\deductionscore6.cs" />
+     <Compile Include="Assets\ObjectLvl1Script\destroyObj6.cs" />
+     <Compile Include="Assets\ObjectLvl1aScript\destroyObj6a.cs" />
+     <Compile Include="Assets\ObjectLvl1bScript\destroyObj6b.cs" />
+     <Compile Include="Assets\ObjectLvl1cScript\destroyObj6c.cs" />
+     <Compile Include="Assets\ObjectLvl1dScript\destroyObj6d.cs" />
+     <Compile Include="Assets\ObjectLvl2Script\GravityFall7.cs" />
+     <Compile Include="Assets\ObjectLvl2Script\IgnoreGravityFall7.cs" />
+     <Compile Include="Assets\ObjectLvl2Script\deductionscore7.cs" />
+     <Compile Include="Assets\ObjectLvl2Script\destroyObj7.cs" />
+     <Compile Include="Assets\ObjectLvl2aScript\destroyObj7a.cs" />
+     <Compile Include="Assets\ObjectLvl2bScript\destroyObj7b.cs" />
+     <Compile Include="Assets\ObjectLvl2cScript\destroyObj7c.cs" />
+     <Compile Include="Assets\ObjectLvl2dScript\destroyObj7d.cs" />
+     <Compile Include="Assets\ObjectLvl3Script\GravityFall8.cs" />
+     <Compile Include="Assets\ObjectLvl3Script\IgnoreGravityFall8.cs" />
+     <Compile Include="Assets\ObjectLvl3Script\deductionscore8.cs" />
+     <Compile Include="Assets\ObjectLvl3Script\destroyObj8.cs" />
+     <Compile Include="Assets\ObjectLvl3aScript\destroyObj8a.cs" />
+     <Compile Include="Assets\ObjectLvl3bScript\destroyObj8b.cs" />
+     <Compile Include="Assets\ObjectLvl3cScript\destroyObj8c.cs" />
+     <Compile Include="Assets\ObjectLvl3dScript\destroyObj8d.cs" />
+     <Compile Include="Assets\ObjectLvl4Script\GravityFall9.cs" />
+     <Compile Include="Assets\ObjectLvl4Script\IgnoreGravityFall9.cs" />
+     <Compile Include="Assets\ObjectLvl4Script\deductionscore9.cs" />
+     <Compile Include="Assets\ObjectLvl4Script\destroyObj9.cs" />
+     <Compile Include="Assets\ObjectLvl4aScript\destroyObj9a.cs" />
+     <Compile Include="Assets\ObjectLvl4bScript\destroyObj9b.cs" />
+     <Compile Include="Assets\ObjectLvl4cScript\destroyObj9c.cs" />
+     <Compile Include="Assets\ObjectLvl4dScript\destroyObj9d.cs" />
+     <Compile Include="Assets\ObjectLvl5Script\GravityFall10.cs" />
+     <Compile Include="Assets\ObjectLvl5Script\IgnoreGravityFall10.cs" />
+     <Compile Include="Assets\ObjectLvl5Script\deductionscore10.cs" />
+     <Compile Include="Assets\ObjectLvl5Script\destroyObj10.cs" />
+     <Compile Include="Assets\ObjectLvl5aScript\destroyObj10a.cs" />
+     <Compile Include="Assets\ObjectLvl5bScript\destroyObj10b.cs" />
+     <Compile Include="Assets\ObjectLvl5cScript\destroyObj10c.cs" />
+     <Compile Include="Assets\ObjectLvl5dScript\destroyObj10d.cs" />
+     <Compile Include="Assets\PlayCategoryScript\menuscript.cs" />
+     <Compile Include="Assets\ScoreSceneScript\scorescenescript.cs" />
+     <Compile Include="Assets\ScoreSystem\scorescript.cs" />
+     <Compile Include="Assets\SelectCategoryScript\selectcategoryscript.cs" />
+     <Compile Include="Assets\Top10\top10.cs" />
+     <Compile Include="Assets\TopScoreScript\topscorescript.cs" />
+     <Compile Include="Assets\TopScoreScript2\topscorescript2.cs" />
+     <Compile Include="Assets\TopScoreScript3\topscorescript3.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B2A7C45E-C7C6-CA95-6730-FBCC1086B709}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

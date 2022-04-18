@@ -1,0 +1,47 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LastSceneScript\beforelast.cs">
+    <Files>
+      <File FileName="Assets\ObjectLvl3Script\destroyObj8.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl4cScript\destroyObj9c.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl4dScript\destroyObj9d.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl4Script\destroyObj9.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl5aScript\destroyObj10a.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl5bScript\destroyObj10b.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl5cScript\destroyObj10c.cs" Line="1" Column="1" />
+      <File FileName="Assets\ObjectLvl5Script\destroyObj10.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl1dScript\destroyObj11g.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl1eScript\destroyObj11e.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl2bScript\destroyObj12b.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl2cScript - Copy\destroyObj12d.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl2cScript - Copy (2)\destroyObj12e.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl2Script\destroyObj12.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl3Script\destroyObj13.cs" Line="1" Column="1" />
+      <File FileName="Assets\Top10\top10.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl1Script\destroyObj11.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimalLvl1Script\destroyObj.cs" Line="77" Column="43" />
+      <File FileName="Assets\AnimalLvl4cScript\destroyObj4c.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimalLvl4dScript\destroyObj4d.cs" Line="1" Column="1" />
+      <File FileName="Assets\DeveloperScript\developerscript.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimalLvl5Script\destroyObj5.cs" Line="1" Column="1" />
+      <File FileName="Assets\ScoreSystem\scorescript.cs" Line="20" Column="3" />
+      <File FileName="Assets\TopScoreScript2\topscorescript2.cs" Line="91" Column="40" />
+      <File FileName="Assets\TopScoreScript\topscorescript.cs" Line="48" Column="40" />
+      <File FileName="Assets\TopScoreScript3\topscorescript3.cs" Line="17" Column="32" />
+      <File FileName="Assets\GameOverScript2\gameoverscript2.cs" Line="25" Column="3" />
+      <File FileName="Assets\GameOverScript3\gameoverscript3.cs" Line="21" Column="2" />
+      <File FileName="Assets\ScoreSceneScript\scorescenescript.cs" Line="68" Column="2" />
+      <File FileName="Assets\FruitLvl1Script\GravityFall11.cs" Line="1" Column="1" />
+      <File FileName="Assets\FruitLvl5Script - Copy (3)\destroyObj15d.cs" Line="113" Column="39" />
+      <File FileName="Assets\ObjectLvl5dScript\destroyObj10d.cs" Line="112" Column="39" />
+      <File FileName="Assets\AnimalLvl5dScript\destroyObj5d.cs" Line="112" Column="39" />
+      <File FileName="Assets\LastSceneScript\animallastscene.cs" Line="30" Column="1" />
+      <File FileName="Assets\LastSceneScript\beforelast.cs" Line="22" Column="15" />
+      <File FileName="Assets\GameOverScript\gameoverscript.cs" Line="8" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
